@@ -1,0 +1,64 @@
+---
+- name: Install MongoDB 6.0 on Ubuntu 24.04
+  hosts: localhost
+  become: yes
+  connection: local
+
+  vars:
+    mongo_key_url: https://pgp.mongodb.com/server-6.0.asc
+    mongo_key_path: /usr/share/keyrings/mongodb-server-6.0.gpg
+    mongo_repo_path: /etc/apt/sources.list.d/mongodb-org-6.0.list
+    mongo_repo_line: "deb [ arch=amd64 signed-by={{ mongo_key_path }} ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/6.0 multiverse"
+
+  tasks:
+    - name: Install required dependencies
+      apt:
+        name:
+          - gnupg
+          - curl
+          - ca-certificates
+        state: present
+        update_cache: yes
+
+    - name: Clean old MongoDB repo and key if present
+      file:
+        path: "{{ item }}"
+        state: absent
+      loop:
+        - "{{ mongo_key_path }}"
+        - "{{ mongo_repo_path }}"
+
+    - name: Download and save MongoDB GPG key
+      shell: |
+        curl -fsSL {{ mongo_key_url }} | gpg --dearmor -o mongodb-server-6.0.gpg
+        mv mongodb-server-6.0.gpg {{ mongo_key_path }}
+      args:
+        creates: "{{ mongo_key_path }}"
+
+    - name: Add MongoDB 6.0 repo with signed-by key
+      copy:
+        dest: "{{ mongo_repo_path }}"
+        content: "{{ mongo_repo_line }}\n"
+        mode: '0644'
+
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install MongoDB 6.0
+      apt:
+        name: mongodb-org
+        state: present
+
+    - name: Start and enable MongoDB service
+      service:
+        name: mongod
+        state: started
+        enabled: yes
+
+    - name: ✅ Done
+      debug:
+        msg: "MongoDB 6.0 installed and running successfully on Ubuntu 24.04"
+
+
+
