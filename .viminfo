@@ -10,15 +10,20 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
-:wq!
-|2,0,1752053813,,"wq!"
 :q!
-|2,0,1751650077,,"q!"
+|2,0,1753530160,,"q!"
+:wq!
+|2,0,1753529999,,"wq!"
 :w!
 |2,0,1751649551,,"w!"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1753530139,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -29,230 +34,291 @@
 # Registers:
 
 # File marks:
-'0  20  19  ~/level1_basic.yaml
-|4,48,20,19,1752054276,"~/level1_basic.yaml"
-'1  20  18  ~/level1_basic.yaml
-|4,49,20,18,1752053813,"~/level1_basic.yaml"
-'2  25  54  ~/level1_basic.yaml
-|4,50,25,54,1752053714,"~/level1_basic.yaml"
-'3  23  54  ~/level1_basic.yaml
-|4,51,23,54,1752053714,"~/level1_basic.yaml"
-'4  25  54  ~/level1_basic.yaml
-|4,52,25,54,1752053714,"~/level1_basic.yaml"
-'5  23  54  ~/level1_basic.yaml
-|4,53,23,54,1752053714,"~/level1_basic.yaml"
-'6  26  45  ~/level1_basic.yaml
-|4,54,26,45,1752053651,"~/level1_basic.yaml"
-'7  26  45  ~/level1_basic.yaml
-|4,55,26,45,1752053651,"~/level1_basic.yaml"
-'8  24  45  ~/level1_basic.yaml
-|4,56,24,45,1752053651,"~/level1_basic.yaml"
-'9  24  45  ~/level1_basic.yaml
-|4,57,24,45,1752053651,"~/level1_basic.yaml"
+'0  8  0  ~/monitoring/prometheus/prometheus.yml
+|4,48,8,0,1753530160,"~/monitoring/prometheus/prometheus.yml"
+'1  33  0  ~/monitoring/docker-compose.yml
+|4,49,33,0,1753529999,"~/monitoring/docker-compose.yml"
+'3  1  0  ~/monitoring/prometheus/prometheus.yml
+|4,51,1,0,1753529904,"~/monitoring/prometheus/prometheus.yml"
+'4  12  0  ~/monitoring/prometheus/prometheus.yaml
+|4,52,12,0,1753529884,"~/monitoring/prometheus/prometheus.yaml"
+'5  12  0  ~/monitoring/prometheus/prometheus.yaml
+|4,53,12,0,1753529703,"~/monitoring/prometheus/prometheus.yaml"
+'7  1  0  ~/monitoring/prometheus/prometheus.yml
+|4,55,1,0,1753529667,"~/monitoring/prometheus/prometheus.yml"
 
 # Jumplist (newest first):
--'  20  19  ~/level1_basic.yaml
-|4,39,20,19,1752054276,"~/level1_basic.yaml"
--'  20  18  ~/level1_basic.yaml
-|4,39,20,18,1752053813,"~/level1_basic.yaml"
--'  25  54  ~/level1_basic.yaml
-|4,39,25,54,1752053755,"~/level1_basic.yaml"
--'  25  54  ~/level1_basic.yaml
-|4,39,25,54,1752053755,"~/level1_basic.yaml"
--'  23  54  ~/level1_basic.yaml
-|4,39,23,54,1752053714,"~/level1_basic.yaml"
--'  23  54  ~/level1_basic.yaml
-|4,39,23,54,1752053714,"~/level1_basic.yaml"
--'  26  45  ~/level1_basic.yaml
-|4,39,26,45,1752053697,"~/level1_basic.yaml"
--'  24  45  ~/level1_basic.yaml
-|4,39,24,45,1752053697,"~/level1_basic.yaml"
--'  26  45  ~/level1_basic.yaml
-|4,39,26,45,1752053697,"~/level1_basic.yaml"
--'  24  45  ~/level1_basic.yaml
-|4,39,24,45,1752053697,"~/level1_basic.yaml"
--'  24  45  ~/level1_basic.yaml
-|4,39,24,45,1752053651,"~/level1_basic.yaml"
--'  1  0  ~/level1_basic.yaml
-|4,39,1,0,1752053280,"~/level1_basic.yaml"
--'  1  0  ~/level1_basic.yaml
-|4,39,1,0,1752053280,"~/level1_basic.yaml"
--'  1  0  ~/level1_basic.yaml
-|4,39,1,0,1752053280,"~/level1_basic.yaml"
--'  1  0  ~/level1_basic.yaml
-|4,39,1,0,1752053280,"~/level1_basic.yaml"
--'  1  0  ~/level1_basic.yaml
-|4,39,1,0,1752053277,"~/level1_basic.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  27  3  ~/condition.yaml
-|4,39,27,3,1751650370,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  26  199  ~/condition.yaml
-|4,39,26,199,1751650320,"~/condition.yaml"
--'  30  42  ~/condition.yaml
-|4,39,30,42,1751650313,"~/condition.yaml"
--'  30  42  ~/condition.yaml
-|4,39,30,42,1751650313,"~/condition.yaml"
--'  30  42  ~/condition.yaml
-|4,39,30,42,1751650313,"~/condition.yaml"
--'  30  42  ~/condition.yaml
-|4,39,30,42,1751650313,"~/condition.yaml"
--'  30  42  ~/condition.yaml
-|4,39,30,42,1751650313,"~/condition.yaml"
--'  30  42  ~/condition.yaml
-|4,39,30,42,1751650313,"~/condition.yaml"
--'  30  42  ~/condition.yaml
-|4,39,30,42,1751650313,"~/condition.yaml"
--'  30  42  ~/condition.yaml
-|4,39,30,42,1751650313,"~/condition.yaml"
--'  30  42  ~/condition.yaml
-|4,39,30,42,1751650313,"~/condition.yaml"
--'  30  42  ~/condition.yaml
-|4,39,30,42,1751650313,"~/condition.yaml"
--'  30  42  ~/condition.yaml
-|4,39,30,42,1751650313,"~/condition.yaml"
--'  30  42  ~/condition.yaml
-|4,39,30,42,1751650313,"~/condition.yaml"
--'  30  42  ~/condition.yaml
-|4,39,30,42,1751650313,"~/condition.yaml"
--'  30  42  ~/condition.yaml
-|4,39,30,42,1751650313,"~/condition.yaml"
--'  30  42  ~/condition.yaml
-|4,39,30,42,1751650313,"~/condition.yaml"
--'  30  42  ~/condition.yaml
-|4,39,30,42,1751650313,"~/condition.yaml"
--'  30  42  ~/condition.yaml
-|4,39,30,42,1751650313,"~/condition.yaml"
--'  30  42  ~/condition.yaml
-|4,39,30,42,1751650313,"~/condition.yaml"
--'  30  42  ~/condition.yaml
-|4,39,30,42,1751650313,"~/condition.yaml"
--'  30  42  ~/condition.yaml
-|4,39,30,42,1751650313,"~/condition.yaml"
+-'  8  0  ~/monitoring/prometheus/prometheus.yml
+|4,39,8,0,1753530160,"~/monitoring/prometheus/prometheus.yml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yml
+|4,39,1,0,1753530150,"~/monitoring/prometheus/prometheus.yml"
+-'  33  0  ~/monitoring/docker-compose.yml
+|4,39,33,0,1753529999,"~/monitoring/docker-compose.yml"
+-'  33  0  ~/monitoring/docker-compose.yml
+|4,39,33,0,1753529999,"~/monitoring/docker-compose.yml"
+-'  1  611  ~/monitoring/docker-compose.yml
+|4,39,1,611,1753529936,"~/monitoring/docker-compose.yml"
+-'  1  611  ~/monitoring/docker-compose.yml
+|4,39,1,611,1753529936,"~/monitoring/docker-compose.yml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yml
+|4,39,1,0,1753529904,"~/monitoring/prometheus/prometheus.yml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yml
+|4,39,1,0,1753529904,"~/monitoring/prometheus/prometheus.yml"
+-'  12  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,12,0,1753529884,"~/monitoring/prometheus/prometheus.yaml"
+-'  12  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,12,0,1753529884,"~/monitoring/prometheus/prometheus.yaml"
+-'  12  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,12,0,1753529884,"~/monitoring/prometheus/prometheus.yaml"
+-'  12  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,12,0,1753529884,"~/monitoring/prometheus/prometheus.yaml"
+-'  12  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,12,0,1753529884,"~/monitoring/prometheus/prometheus.yaml"
+-'  12  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,12,0,1753529884,"~/monitoring/prometheus/prometheus.yaml"
+-'  12  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,12,0,1753529884,"~/monitoring/prometheus/prometheus.yaml"
+-'  12  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,12,0,1753529884,"~/monitoring/prometheus/prometheus.yaml"
+-'  12  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,12,0,1753529703,"~/monitoring/prometheus/prometheus.yaml"
+-'  12  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,12,0,1753529703,"~/monitoring/prometheus/prometheus.yaml"
+-'  12  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,12,0,1753529703,"~/monitoring/prometheus/prometheus.yaml"
+-'  12  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,12,0,1753529703,"~/monitoring/prometheus/prometheus.yaml"
+-'  12  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,12,0,1753529703,"~/monitoring/prometheus/prometheus.yaml"
+-'  12  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,12,0,1753529703,"~/monitoring/prometheus/prometheus.yaml"
+-'  12  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,12,0,1753529703,"~/monitoring/prometheus/prometheus.yaml"
+-'  12  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,12,0,1753529703,"~/monitoring/prometheus/prometheus.yaml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,1,0,1753529689,"~/monitoring/prometheus/prometheus.yaml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,1,0,1753529689,"~/monitoring/prometheus/prometheus.yaml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,1,0,1753529689,"~/monitoring/prometheus/prometheus.yaml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,1,0,1753529689,"~/monitoring/prometheus/prometheus.yaml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,1,0,1753529689,"~/monitoring/prometheus/prometheus.yaml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,1,0,1753529689,"~/monitoring/prometheus/prometheus.yaml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,1,0,1753529689,"~/monitoring/prometheus/prometheus.yaml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,1,0,1753529689,"~/monitoring/prometheus/prometheus.yaml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,1,0,1753529689,"~/monitoring/prometheus/prometheus.yaml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,1,0,1753529689,"~/monitoring/prometheus/prometheus.yaml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,1,0,1753529689,"~/monitoring/prometheus/prometheus.yaml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,1,0,1753529689,"~/monitoring/prometheus/prometheus.yaml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,1,0,1753529689,"~/monitoring/prometheus/prometheus.yaml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,1,0,1753529689,"~/monitoring/prometheus/prometheus.yaml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,1,0,1753529689,"~/monitoring/prometheus/prometheus.yaml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yaml
+|4,39,1,0,1753529689,"~/monitoring/prometheus/prometheus.yaml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yml
+|4,39,1,0,1753529667,"~/monitoring/prometheus/prometheus.yml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yml
+|4,39,1,0,1753529667,"~/monitoring/prometheus/prometheus.yml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yml
+|4,39,1,0,1753529667,"~/monitoring/prometheus/prometheus.yml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yml
+|4,39,1,0,1753529667,"~/monitoring/prometheus/prometheus.yml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yml
+|4,39,1,0,1753529667,"~/monitoring/prometheus/prometheus.yml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yml
+|4,39,1,0,1753529667,"~/monitoring/prometheus/prometheus.yml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yml
+|4,39,1,0,1753529667,"~/monitoring/prometheus/prometheus.yml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yml
+|4,39,1,0,1753529667,"~/monitoring/prometheus/prometheus.yml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yml
+|4,39,1,0,1753529626,"~/monitoring/prometheus/prometheus.yml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yml
+|4,39,1,0,1753529626,"~/monitoring/prometheus/prometheus.yml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yml
+|4,39,1,0,1753529626,"~/monitoring/prometheus/prometheus.yml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yml
+|4,39,1,0,1753529626,"~/monitoring/prometheus/prometheus.yml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yml
+|4,39,1,0,1753529626,"~/monitoring/prometheus/prometheus.yml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yml
+|4,39,1,0,1753529626,"~/monitoring/prometheus/prometheus.yml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yml
+|4,39,1,0,1753529626,"~/monitoring/prometheus/prometheus.yml"
+-'  1  0  ~/monitoring/prometheus/prometheus.yml
+|4,39,1,0,1753529626,"~/monitoring/prometheus/prometheus.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
+-'  32  0  ~/monitoring/docker-compose.yml
+|4,39,32,0,1753529573,"~/monitoring/docker-compose.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/monitoring/docker-compose.yml
+	*	1753529997	0
+	"	33	0
+	^	33	0
+	.	32	18
+	+	56	0
+	+	1	470
+	+	1	611
+	+	32	18
+
+> ~/monitoring/prometheus/prometheus.yml
+	*	1753529902	0
+	"	1	0
+	^	1	0
+
+> ~/monitoring/prometheus/prometheus.yaml
+	*	1753529883	0
+	"	12	0
+	^	12	0
+	.	11	39
+	+	11	39
+
+> ~/monitoring/docker-compose.yaml
+	*	1753529546	0
+	"	1	0
+	^	1	0
+
+> ~/monitoring/prometheus/promethus.yml
+	*	1753528900	0
+	"	8	0
+	^	8	0
+	.	7	35
+	+	26	0
+	+	7	35
+
+> ~/new.sh
+	*	1752747012	0
+	"	9	0
+	^	9	0
+	.	8	37
+	+	18	0
+	+	1	11
+	+	8	37
+
+> ~/ansible-node-mongo/README.md
+	*	1752060364	0
+	"	9	0
+	^	9	0
+	.	9	0
+	+	26	317
+	+	68	0
+	+	26	292
+	+	68	0
+	+	26	289
+	+	68	0
+	+	26	256
+	+	68	0
+	+	26	212
+	+	68	0
+	+	26	192
+	+	68	0
+	+	26	168
+	+	68	0
+	+	26	152
+	+	68	0
+	+	26	149
+	+	68	0
+	+	67	0
+	+	7	0
+	+	9	0
 
 > ~/level1_basic.yaml
 	*	1752053975	0
