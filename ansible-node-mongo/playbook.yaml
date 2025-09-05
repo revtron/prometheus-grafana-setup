@@ -1,7 +1,7 @@
 ---
 - name: Install MongoDB 6.0 on Ubuntu 24.04
   hosts: localhost
-  become: yes
+  become: true
   connection: local
 
   vars:
